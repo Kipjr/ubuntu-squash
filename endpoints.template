@@ -6,4 +6,4 @@ endpoints:
     os: "mint"
     version: "19"
     flavor: "MATE"
-    kernel: "ubuntu-18.04-live-kernel"
+    kernel: "mint-19-cinnamon-squash"
