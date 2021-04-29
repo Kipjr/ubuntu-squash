@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
-VERSION=$(curl -sL http://cdimage.ubuntu.com/xubuntu/releases/hirsute/release/ |grep '<title>' | grep -Po "(\d+\.)+\d+")
+VERSION=$(curl -sX GET "https://api.github.com/repos/rescuezilla/rescuezilla/releases/latest" | awk '/tag_name/{print $4;exit}' FS='[""]')
 echo "${VERSION}"

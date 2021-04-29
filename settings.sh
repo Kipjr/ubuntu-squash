@@ -1,9 +1,9 @@
-URL="http://cdimage.ubuntu.com/xubuntu/releases/hirsute/release/xubuntu-REPLACE_VERSION-desktop-amd64.iso"
+URL="https://github.com/rescuezilla/rescuezilla/releases/download/REPLACE_VERSION/rescuezilla-REPLACE_VERSION-64bit.focal.iso"
 TYPE=file
 CONTENTS="\
 casper/vmlinuz|vmlinuz
-casper/initrd|initrd
+casper/initrd.lz|initrd
 casper/filesystem.squashfs|filesystem.squashfs"
 EXTRACT_INITRD="true"
 INITRD_NAME="initrd"
-INITRD_TYPE="lz4"
+INITRD_TYPE="gz"
