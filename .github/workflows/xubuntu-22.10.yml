@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - xubuntu-22.10
+    paths-ignore:
+      - '.github/workflows/**'
   schedule:
     - cron: '0 4 * * 6'
 
@@ -20,7 +22,7 @@ jobs:
     name: Version Checker
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         ref: xubuntu-22.10
 
