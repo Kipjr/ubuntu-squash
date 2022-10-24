@@ -1,5 +1,5 @@
-URL="http://cdimage.ubuntu.com/ubuntu-mate/releases/jammy/release/ubuntu-mate-REPLACE_VERSION-desktop-amd64.iso"
-TYPE=file
+URL="https://cdimage.ubuntu.com/ubuntustudio/releases/REPLACE_VERSION/release/ubuntustudio-REPLACE_VERSION-dvd-amd64.iso.torrent"
+TYPE=torrent
 CONTENTS="\
 casper/vmlinuz|vmlinuz
 casper/initrd|initrd
